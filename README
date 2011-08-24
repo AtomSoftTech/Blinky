@@ -1,7 +1,1 @@
-<<<<<<< HEAD
-Testing out git! Pretty Cool. More complex than i originally thought.
-
-But getting the hang of it :D 
-=======
-Testing out git! Pretty Cool. More complex than i originally thought.
->>>>>>> a8c11ce957697a231907710ed6a3ca7bb888511b
+This is just a test but the actual blinking code works! It blinks the 16bit PORT C on the Papilio One board. Pure VHDL.
