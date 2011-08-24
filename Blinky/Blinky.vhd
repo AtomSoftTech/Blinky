@@ -36,7 +36,7 @@ process (clk,rst,state) is begin  -- Process these signals
 		state <= (others => '0');	 -- Place 0's in LED state 
    elsif (rising_edge(clk)) then	 -- Wait for the clock to be high (rising edge)
 		count <= count + 1;			 -- Add 1 to our count variable
-      if(count = 16000000) then	 -- If count is hald our crystal rate which is (32Mhz) which should equal 1/2 second (500ms) blink
+      if(count = 16000000) then	 -- If count is half our crystal rate which is (32Mhz) which should equal 1/2 second (500ms) blink
 			state <= not state;		 -- Flip the state variable between all 0's to all 1's
 			count <= (others => '0');-- Reset count
 		end if;				
